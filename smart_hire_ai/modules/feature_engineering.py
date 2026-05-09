@@ -3,6 +3,7 @@ SmartHire AI – Feature Engineering
 Generate TF-IDF vectors, skill matrices, and scoring features for ML models.
 """
 
+# pyrefly: ignore [missing-import]
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from utils.constants import EDUCATION_LEVELS, EDUCATION_MAX_SCORE, EXPERIENCE_MAX_SCORE
